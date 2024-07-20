@@ -60,11 +60,11 @@ obj={
         "original_purchase_date": "2024-04-13 14:24:41 Etc/GMT",
         "original_purchase_date_ms": "1713018281000",
         "original_purchase_date_pst": "2024-04-13 07:24:41 America/Los_Angeles",
-        "expires_date": "2025-05-13 14:24:41 Etc/GMT",
-        "expires_date_ms": "1747146281000",
-        "expires_date_pst": "2025-05-13 07:24:41 America/Los_Angeles",
+        "expires_date": "2024-08-13 14:24:41 Etc/GMT",
+        "expires_date_ms": "1723514081000",
+        "expires_date_pst": "2024-08-13 07:24:41 America/Los_Angeles",
         "web_order_line_item_id": "510000744311723",
-        "is_trial_period": "false",
+        "is_trial_period": "true",
         "is_in_intro_offer_period": "false",
         "in_app_ownership_type": "PURCHASED"
       }
@@ -110,11 +110,11 @@ obj={
       "original_purchase_date": "2024-04-13 14:24:41 Etc/GMT",
       "original_purchase_date_ms": "1713018281000",
       "original_purchase_date_pst": "2024-04-13 07:24:41 America/Los_Angeles",
-      "expires_date": "2025-05-13 14:24:41 Etc/GMT",
-      "expires_date_ms": "1747146281000",
-      "expires_date_pst": "2025-05-13 07:24:41 America/Los_Angeles",
+      "expires_date": "2024-08-13 14:24:41 Etc/GMT",
+      "expires_date_ms": "1723559081000",
+      "expires_date_pst": "2024-08-13 07:24:41 America/Los_Angeles",
       "web_order_line_item_id": "510000744311723",
-      "is_trial_period": "false",
+      "is_trial_period": "true",
       "is_in_intro_offer_period": "false",
       "in_app_ownership_type": "PURCHASED",
       "subscription_group_identifier": "20337171"
@@ -127,7 +127,7 @@ obj={
       "is_in_billing_retry_period": "0",
       "product_id": "com.firecore.infuse.pro.365",
       "original_transaction_id": "510001540286043",
-      "auto_renew_status": "1"
+      "auto_renew_status": "0"
     }
   ],
   "status": 0
