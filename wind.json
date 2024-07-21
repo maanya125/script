@@ -1,1 +1,21 @@
+var obj = JSON.parse($response.body);
 
+obj= {
+  "data": {
+    "ignore_udp_tests": 1,
+    "username": "PrivateBroVolunteer",
+    "user_id": "3ub6rsgi",
+    "traffic_used": 0,
+    "traffic_max": 20737418240,
+    "status": 1,
+    "email": "hero1@hero154.tech",
+    "email_status": 1,
+    "billing_plan_id": -1,
+    "is_premium": 0,
+    "reg_date": 1695973534,
+    "last_reset": "2024-07-21",
+    "loc_rev": 35840,
+    "loc_hash": "d26010a5ddd44a9527217aeb0e4743f93ed3b8dc"
+  }
+};
+$done({body: JSON.stringify(obj)});
