@@ -1,0 +1,28 @@
+var obj = JSON.parse($response.body);
+
+obj = {
+  "status": "success",
+  "data": {
+    "user_id": 287409047,
+    "is_premium": 1,
+    "level": 0,
+    "type": "diamond",
+    "sku": null,
+    "result": "success",
+    "date": {
+      "start": 1721570484000,
+      "last_renewed": null,
+      "expires": 1726927284000
+    },
+    "is_trial_eligible": false,
+    "is_apple_auto_renewable": true,
+    "is_google_subscriber": false,
+    "is_huawei_subscriber": false,
+    "is_apple_subscriber": false,
+    "will_renew": true,
+    "is_on_hold": null,
+    "purchase_allowed": true,
+    "is_prepaid": null
+  }
+};
+$done({body: JSON.stringify(obj)});
