@@ -1,4 +1,4 @@
-var obj = `{
+var obj = {
   "environment": "Production",
   "receipt": {
     "receipt_type": "Production",
@@ -72,5 +72,5 @@ var obj = `{
     }
   ],
   "status": 0
-}`;
+};
 $done({body: obj});
