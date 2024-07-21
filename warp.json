@@ -1,0 +1,71 @@
+var obj = JSON.parse($response.body);
+
+obj= {
+  "result": {
+    "id": "0b7a147a-2be4-4352-9488-3d1c431738f6",
+    "type": "i",
+    "model": "iPad8,9",
+    "name": "",
+    "key": "dvdZHNuvC7HQiQwCS6txjM7Gr20M/h/FgXcIrZ5P4Ao=",
+    "account": {
+      "id": "be221fca-1143-44ec-8abf-11245f2d0f5f",
+      "account_type": "free",
+      "created": "2023-09-22T09:34:35.831711Z",
+      "updated": "2024-06-04T16:42:25.437568Z",
+      "premium_data": 10,
+      "quota": 0,
+      "warp_plus": true,
+      "referral_count": 0,
+      "referral_renewal_countdown": 0,
+      "role": "child",
+      "license": "C6c29lL4-9U2s3lF8-81wCF4L9",
+      "ttl": "2024-09-02T16:42:25.245483Z"
+    },
+    "config": {
+      "client_id": "sfVs",
+      "peers": [
+        {
+          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+          "endpoint": {
+            "v4": "162.159.192.7:0",
+            "v6": "[2606:4700:d0::a29f:c007]:0",
+            "host": "engage.cloudflareclient.com:2408",
+            "ports": [
+2408,
+500,
+1701,
+4500
+            ]
+          }
+        }
+      ],
+      "interface": {
+        "addresses": {
+          "v4": "172.16.0.2",
+          "v6": "2606:4700:110:87bb:4fcc:44e:827c:1083"
+        }
+      },
+      "services": {
+        "http_proxy": "172.16.0.1:2480"
+      },
+      "metrics": {
+        "ping": 900,
+        "report": 900
+      }
+    },
+    "warp_enabled": false,
+    "waitlist_enabled": false,
+    "created": "2023-09-22T09:34:35.456487Z",
+    "updated": "2024-06-04T16:42:25.245484Z",
+    "tos": "2023-09-22T15:04:26.155Z",
+    "place": 0,
+    "locale": "hi-IN",
+    "enabled": true,
+    "install_id": "",
+    "fcm_token": ""
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+};
+$done({body: JSON.stringify(obj)});
