@@ -1,6 +1,6 @@
 var obj = JSON.parse($response.body);
 
 obj= {
-  "is_subscribed": true
+  "is_subscribed": false
 };
 $done({body: JSON.stringify(obj)});
